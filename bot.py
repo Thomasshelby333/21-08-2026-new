@@ -47,7 +47,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # session name
-session_name = "NovaSharingbot"
+session_name = "OurSharingBot"
 
 bot = Client(
     session_name,
