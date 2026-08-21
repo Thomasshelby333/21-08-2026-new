@@ -81,16 +81,17 @@ class Database:
         current_start_text = settings.get("start_text", "")
         if "start_text" not in settings or "@NovaSupport" in current_start_text or "𝑨𝑻 × 𝑵𝑶𝑽𝑨" in current_start_text:
             start_text = (
-                "╭━━━〔 𝐍𝐨𝐯𝐚 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐁𝐨𝐭 〕━━╮\n\n"
-                "**👋 Hello {mention},**\n\n"
-                "**Welcome to the Nova Sharing Bot!**\n\n"
-                "I can store files and share them via links. "
-                "Just send me a file, and I'll give you a link to share with others.\n\n"
-                "**Join Our Channels:**\n"
-                "📢 @NovaMultiFlix\n"
-                "📢 @ATxNovaOfficial\n\n"
-                "---\n**© @NovaMultiFlix & @ATxNovaOfficial**"
-            )
+                 "╭━━━〔 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐁𝐨𝐭 〕━━╮\n\n"
+    "**👋 Hello {mention},**\n\n"
+    "**Welcome to Our Sharing Bot!**\n\n"
+    "I can store files and share them via links. "
+    "Just send me a file, and I'll give you a link to share with others.\n\n"
+    "**Join Our Channels:**\n"
+    "📢 @MultiFlixUpdates\n"
+    "📢 @ATxOfficial\n\n"
+    "---\n**© Sharing Bot Team**"
+)
+
             settings["start_text"] = start_text
             updates["start_text"] = start_text
         if "extra_db_uris" not in settings:
