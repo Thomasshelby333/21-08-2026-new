@@ -57,16 +57,17 @@ class Database:
                 "fsub_channels": [],
                 "start_pic": START_PIC,
                 "start_text": (
-                    "╭━━━〔 𝐍𝐨𝐯𝐚 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐁𝐨𝐭 〕━━╮\n\n"
-                    "**👋 Hello {mention},**\n\n"
-                    "**Welcome to the Nova Sharing Bot!**\n\n"
-                    "I can store files and share them via links. "
-                    "Just send me a file, and I'll give you a link to share with others.\n\n"
-                    "**Join Our Channels:**\n"
-                    "📢 @NovaMultiFlix\n"
-                    "📢 @ATxNovaOfficial\n\n"
-                    "---\n**© @NovaMultiFlix & @ATxNovaOfficial**"
-                )
+    "╭━━━〔 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐁𝐨𝐭 〕━━╮\n\n"
+    "**👋 Hello {mention},**\n\n"
+    "**Welcome to Our Sharing Bot!**\n\n"
+    "I can store files and share them via links. "
+    "Just send me a file, and I'll give you a link to share with others.\n\n"
+    "**Join Our Channels:**\n"
+    "📢 @MultiFlixUpdates\n"
+    "📢 @ATxOfficial\n\n"
+    "---\n**© Sharing Bot Team**"
+)
+
             }
             await self._settings.insert_one(settings)
         
